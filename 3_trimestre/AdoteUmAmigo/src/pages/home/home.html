@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<h3 style="text-align: center;">Cadastro de Animais</h3>
+      <ion-item>
+          <ion-label fixed>Espécie</ion-label>
+          <ion-input type="text" [(ngModel)]="animal.especie"></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-label fixed>Nome</ion-label>
+          <ion-input type="text" [(ngModel)]="animal.nome"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label fixed>Idade</ion-label>
+          <ion-input type="text" [(ngModel)]="animal.idade"></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-label fixed>Sexo</ion-label>
+          <ion-input type="text" [(ngModel)]="animal.sexo"></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-label fixed>Porte</ion-label>
+          <ion-input type="text" [(ngModel)]="animal.porte"></ion-input>
+      </ion-item>
+
+      <button (click)="cadastrar()" ion-button full>Cadastrar</button>
+
+
+
+
+</ion-content>
