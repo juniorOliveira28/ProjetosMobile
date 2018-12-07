@@ -78,29 +78,10 @@ export class HomePage {
 
   }
 
-  // cadastrar(){
-  //   this.alunos.push(this.aluno);
-  //
-  //   this.toastCtrl.create({
-  //     message: 'Aluno '+this.aluno.nome +" adicionado!!",
-  //     duration: 3000
-  //   }).present();
-  //
-  //   this.aluno = {nome:'',ra:''};
-  //   console.log(this.alunos);
-  // }
 
   mostrarAlunos(){
     this.navCtrl.push(DetalhesPage, {'alunos':this.alunos});
   }
 
-
-  // chamarPagina(){
-  //   this.navCtrl.push(DetalhesP age,{"time":"Palmeiras","titulos":10});
-  // }
-  //
-  // chamarPaginaRaiz(){
-  //   this.navCtrl.setRoot(DetalhesPage,{"time":"Palmeiras","titulos":10});
-  // }
 
 }

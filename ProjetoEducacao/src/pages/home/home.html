@@ -10,31 +10,26 @@
   <ion-navbar>
     <button (click)="cadastrarComDialog()" ion-button full
     color="primary">Cadastrar Notas</button>
+
+
   </ion-navbar>
-<!-- <button (click)="chamarPagina()" ion-button full color="danger" round>Chamar Página</button> -->
-
-<!-- <button (click)="chamarPaginaRaiz()" ion-button full color="danger" round>Chamar Página Raiz</button> -->
 
 
-<!-- <ion-list>
-  <ion-item>
-    <ion-label floating>Nome</ion-label>
-    <ion-input type="text" [(ngModel)]="aluno.nome"></ion-input>
-  </ion-item>
-  <ion-item>
-    <ion-label floating>Nota</ion-label>
-    <ion-input type="text" [(ngModel)]="aluno.nota"></ion-input>
-  </ion-item>
-  <ion-item>
-    <ion-label floating>Trimestre</ion-label>
-    <ion-input type="text" [(ngModel)]="aluno.trimestre"></ion-input>
-  </ion-item>
-  <!- <button (click)="cadastrar()" ion-button full
-        color="danger" round>Cadastrar</button>-->
-<!-- </ion-list> -->
-<hr/><hr/>
+<style media="screen">
+  #img{
+    align-items: center;
+    /*background: red;*/
+    center;
+    align: center;
+  }
+</style>
+
+<ion-img style="width:65%;" id="img" src="https://i.pinimg.com/originals/17/e5/d7/17e5d73e0153b3dd658be4217ea3540c.png" ></ion-img>
+
+
+
+<button (click)="mostrarAlunos()" ion-button full
+color="danger" >Mostrar Alunos Cadastrados</button>
 </ion-content>
 <ion-footer>
-  <button (click)="mostrarAlunos()" ion-button full
-  color="danger" >Mostrar Alunos Cadastrados</button>
 </ion-footer>
